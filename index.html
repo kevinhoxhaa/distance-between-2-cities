@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Distance between 2 cities</title>
+        <link href="/style.css" rel = "stylesheet" />
+        <script src="https://kit.fontawesome.com/b5ac6de082.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <div class = "topDiv">
+        <div class="textDiv">
+            <h1> Find The Distance Between Two Locations</h1>
+            <p> This Website Will Help You Calculate Driving Distance Between Two Locations</p>
+        </div>
+        <form class = "forms">
+            <div class = "form-div">
+                <label for = "from" class = "origin-label"><i class="fa-sharp fa-solid fa-location-crosshairs"></i></label>
+                <input type="text" id = "from" placeholder="Origin">
+            </div>
+            <div class = "form-div">
+                <label for = "to" class = "destination-label"><i class="fa-sharp fa-solid fa-location-dot"></i></label>
+                <input type="text" id = "to" placeholder="Destination">
+            </div>
+        </form>
+        <div class = "button-div">
+            <button class = "btn" onclick="calculateRoute();"> DIRECTIONS </i> </button>
+        </div>
+    </div>
+
+    <div id = "googleMaps"></div>
+
+    <div id = "output"></div>
+
+    <script src = "https://maps.googleapis.com/maps/api/js?key=[ADDKEY]&libraries=places"></script>
+    <script src = "app.js"></script>
+</body>
+</html>

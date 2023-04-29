@@ -1,0 +1,58 @@
+body{
+    color: rgb(20, 118, 199);
+    font-family:'Roboto',sans-serif;
+}
+.topDiv{
+    background-color: wheat;
+}
+.form-div {
+    margin-left: 10px; /* Adjust as needed */
+    margin-right: 10%; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+  }
+#to {
+    margin-left: 4px;
+}
+.btn{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+    }
+    a.button6:active{
+    top:0.1em;
+    }
+    @media all and (max-width:30em){
+    .btn{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+.btn{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#googleMaps{
+    width: 80%;
+    height: 500px;
+    margin: 22px auto;
+}
+#output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+.alert{
+   color: red;
+}
